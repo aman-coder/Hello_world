@@ -1,0 +1,22 @@
+body {
+	background-color: rgba(14, 13, 13, 0.226);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 2.5rem;
+	 padding: 3rem;
+	 
+}
+
+.data{
+	flex: 40%;
+}
+.image{
+	flex: 10%;
+	/* padding-left: 2.5rem; */
+}
